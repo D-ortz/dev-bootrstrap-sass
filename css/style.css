@@ -36,7 +36,7 @@
 }
 
 #main-body {
-  background: url(/images/code.avif) center/cover no-repeat;
+  background: url(../images/code.avif) center/cover no-repeat;
   height: 100vh;
 }
 
@@ -57,13 +57,13 @@
 
 @media (min-width: 576px) {
   #main-body {
-    background: url(/images/code.avif) center/cover no-repeat;
+    background: url(../images/code.avif) center/cover no-repeat;
     height: 100vh;
   }
 }
 @media (min-width: 1024px) {
   #main-body {
-    background: url(/images/code.avif) center/cover no-repeat;
+    background: url(../images/code.avif) center/cover no-repeat;
     height: 100vh;
   }
 }

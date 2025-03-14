@@ -1,7 +1,7 @@
 @use 'variables' as *;
 
 #main-body {
-  background: url(/images/code.avif) center / cover no-repeat;
+  background: url(#{$bg_image}) center / cover no-repeat;
   height: 100vh;
 }
 
