@@ -28,17 +28,7 @@ Este proyecto simula botones con enlaces, para explorar todo el contenido tienes
 - **Backend**: En proceso
 - **Base de Datos**: (Dependiendo del almacenamiento elegido, puede ser MySQL, MongoDB, etc.)
 
-## Instalación y Configuración
-1. Clona el repositorio:
-   ```sh
-   git clone https://github.com/D-ortz/DevTracker-Bootstrap.git
-   ```
-2. Accede al directorio del proyecto:
-   ```sh
-   cd clase 6
-   ```
 
-   ```
 
 
 
