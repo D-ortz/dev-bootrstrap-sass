@@ -51,42 +51,58 @@
       
       <!-- APARTIR DE AQUI HABILITAR UN BOTON PARA MOSTRAR CONTENIDO, SOLO DEBEN VERSE LOS ENCABEZADOS EN LA VISTA MOBILE -->
         <div class="row ">
-            <div class="col-3 border d-md-block"> 
+            <div class="col-md-3 border "> 
               <!-- <h5 class="d-sm-block d-md-none"  data-bs-toggle="collapse" data-bs-target="#recent_projects" aria-expanded="false" aria-controls="recent_projects">Proyectos recientes</h5> -->
-                <h5 class="mt-2 ">Proyectos recientes</h5>
+              <h5 class="mt-2 cursor d-block d-md-none" data-bs-toggle="collapse" data-bs-target="#recent_projects" aria-expanded="false" aria-controls="recent_projects">
+                Proyectos recientes
+              </h5>  
+              <h5 class="mt-2 d-none d-md-block">Proyectos recientes</h5>
                 <hr>
-                <ul class="" id="recent_projects">
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 1</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 2</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 3</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 4</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4">Proyecto 5</a></li>
-                </ul>
+                <div class="collapse d-md-block" id="recent_projects">
+                  <ul>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 task">Proyecto 1</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 task">Proyecto 2</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 task">Proyecto 3</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 task">Proyecto 4</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 task">Proyecto 5</a></li>
+                  </ul>
+                </div>
             </div>
-            <div class="col-6 border">
-                <h5 class="mt-2 make_bigger">Proyecto actual</h5><hr>
-                <p>Descripcion del proyecto ...</p>
+            <div class="col-md-6 border">
+                <h5 class="mt-2 cursor d-block d-md-none" data-bs-toggle="collapse" data-bs-target="#current_project" aria-expanded="false" aria-controls="current_project">
+                  Proyecto actual
+                </h5> 
+                <h5 class="mt-2 d-none d-md-block">Proyecto actual</h5>
                 <hr>
-                <h6>Tareas a realizar</h6>
-                <ul>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 1  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 2  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 3  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 4  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 5  fecha deadline</a></li> 
-                </ul>
+                <div class="collapse d-md-block" id="current_project">
+                  <p>Descripcion del proyecto ...</p>
+                  <hr>
+                  <h6>Tareas a realizar</h6>
+                  <ul>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 1  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 2  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 3  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 4  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1  task">Task 5  fecha deadline</a></li> 
+                  </ul>
+                </div>
             </div>
 
-            <div class="col-3 border ">
-                <h5 class="mt-2">Tareas por vencer</h5>
+            <div class="col-md-3 border ">
+                <h5 class="mt-2 cursor d-block d-md-none" data-bs-toggle="collapse" data-bs-target="#task_due" aria-expanded="false" aria-controls="task_due">
+                  Tareas por vencer
+                </h5>  
+                <h5 class="mt-2 d-none d-md-block">Tareas por vencer</h5>
                 <hr>
-                <ul>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task ">Task 1  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 2  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 3  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 4  fecha deadline</a></li>
-                    <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 5  fecha deadline</a></li>
-                </ul>
+                <div class="collapse d-md-block" id="task_due">
+                  <ul>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task ">Task 1  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 2  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 3  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 4  fecha deadline</a></li>
+                      <li><a href="" class="nav-link link-underline-opacity-0 mt-4 p-1 task">Task 5  fecha deadline</a></li>
+                  </ul>
+                </div>
             </div>
         </div>
       </div>

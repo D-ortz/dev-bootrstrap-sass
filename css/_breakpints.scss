@@ -1,5 +1,11 @@
 @use 'variables' as *;
 
-.d-xs-none{
-    @extend .
+.collapse{
+    @include media-breakpoint-down(md){
+        display: none;
+    }
+}
+
+.collapse.show{
+    display: block;
 }

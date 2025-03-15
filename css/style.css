@@ -95,5 +95,8 @@
     transform: scale(1);
   }
 }
+.cursor:hover {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
