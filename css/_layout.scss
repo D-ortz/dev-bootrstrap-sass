@@ -15,3 +15,20 @@
 .main-column {
   height: 400px;
 }
+
+.carousel-item {
+  height: 700px;
+}
+
+// _carousel.scss
+
+.carousel-item {
+  height: 700px; // Establece la altura fija del contenedor del carrusel
+
+  img {
+    height: 100%; // Ajusta la altura de la imagen al contenedor
+    width: auto;  // Mantiene las proporciones de la imagen
+    margin: auto; // Centra la imagen
+    object-fit: cover; // Alternativa: usa 'contain' si deseas que las imágenes se ajusten sin recortarse
+  }
+}

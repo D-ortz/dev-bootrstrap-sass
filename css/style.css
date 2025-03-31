@@ -1,6 +1,7 @@
 @charset "UTF-8";
 .navbar_color {
   background-color: #0a2066;
+  background: linear-gradient(135deg, #0a2066, #6610f2);
 }
 
 .a_color {
@@ -51,8 +52,27 @@
   height: 400px;
 }
 
+.carousel-item {
+  height: 700px;
+}
+
+.carousel-item {
+  height: 700px;
+}
+.carousel-item img {
+  height: 100%;
+  width: auto;
+  margin: auto;
+  object-fit: cover;
+}
+
 .footer-columns-color {
   color: white;
+}
+
+.footer-bg-color {
+  background-color: #0D1B2A;
+  color: #fff;
 }
 
 @media (min-width: 576px) {
