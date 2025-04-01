@@ -20,7 +20,39 @@
   height: 700px;
 }
 
-// _carousel.scss
+
+.styled-title {
+  font-family: "Poppins", sans-serif; 
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  padding: 10px;
+  background: $gradient-primary;
+  border: 2px solid transparent;
+  border-radius: 15px;
+}
+
+.border-color {
+  position: relative; /* Necesario para el uso de ::before */
+  border: 2px solid transparent; 
+  border-image: $gradient-primary 1 stretch; 
+  border-radius: 15px; 
+  overflow: hidden; /* Asegura que el contenido no sobresalga del borde redondeado */
+}
+
+.border-color::before {
+  content: ''; /* Crea un pseudo-elemento vacío */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $gradient-primary; /* Aplica el gradiente como fondo */
+  z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+  border-radius: 15px; 
+}
+
 
 .carousel-item {
   height: 700px; // Establece la altura fija del contenedor del carrusel
